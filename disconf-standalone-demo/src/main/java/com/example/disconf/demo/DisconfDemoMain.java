@@ -39,7 +39,7 @@ public class DisconfDemoMain {
         
         new Profiler.Builder()
            .profilingGroupName("test")
-           .build().start()
+           .build().start();
 
         System.exit(ret);
     }
