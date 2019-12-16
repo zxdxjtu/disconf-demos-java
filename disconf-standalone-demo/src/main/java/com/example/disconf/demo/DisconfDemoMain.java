@@ -41,6 +41,7 @@ public class DisconfDemoMain {
            .profilingGroupName("test")
            .build().start();
         System.out.println("end");
+
         System.exit(ret);
     }
 }
